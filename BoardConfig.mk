@@ -22,6 +22,9 @@ DEVICE_PATH := device/xiaomi/kenzo
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := kate,kenzo
 
+#Updater Script Add-On
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./build/tools/releasetools/ota_from_target_files -e ./device/xiaomi/kenzo/installer_extra
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/xiaomi/kenzo/bluetooth
 
