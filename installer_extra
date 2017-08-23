@@ -1,0 +1,6 @@
+
+ui_print(" xxxxxxxxxxxxxxxxx Hardware xxxxxxxxxxxxxxxxx ");
+ui_print(" Device codename: "+getprop("ro.build.product")+"");
+ui_print(" Manufacturer: "+getprop("ro.product.brand")+"");
+ui_print(" Maintainer: NVDX11 ;)");
+ui_print(" #Desolated " );
