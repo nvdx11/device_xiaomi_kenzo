@@ -16,16 +16,13 @@
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/deso/common.mk)
-
-#Stop building OpenCamera
-HAS_DEVICE_CAM := true
+$(call inherit-product, vendor/invictus/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := deso_kenzo
+PRODUCT_NAME := inv_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi

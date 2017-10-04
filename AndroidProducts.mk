@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/deso_kenzo.mk
+    $(LOCAL_DIR)/invictus.mk
