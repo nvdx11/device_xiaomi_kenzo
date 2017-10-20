@@ -15,8 +15,8 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/invictus/config/common.mk)
+# Inherit some common Invictus stuff.
+$(call inherit-product, vendor/invictus/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
